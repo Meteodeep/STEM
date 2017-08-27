@@ -3,8 +3,8 @@ def variable(x,y):
     print(x+" is your Variable!!")
     print(y+" is your Constant!!")
     print("Now we will move onto the calculating unit")                               
-    x = (int(x))
-    y = (int(y))
+    x = (float(x))
+    y = (float(y))
     number1=(int(input("Please enter your First Number")))
     number2=(int(input("Please enter your Second Number")))
 
