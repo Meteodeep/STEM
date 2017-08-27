@@ -2,13 +2,14 @@
 def variable(x):
     print(x+" is your Variable!!")                                  
     print("Now we will move onto the calculating unit")                               
-    x = (int(x))
-    number1=(int(input("Please enter your First Number")))
-    number2=(int(input("Please enter your Second Number")))
+    x = (float(x))
+    number1=(float(input("Please enter your First Number")))
+    number2=(float(input("Please enter your Second Number")))
 
 
     choice=input("Would you like to Add, Subtract, Multiply or Divide? (Use Symbols)")
 
+    choice = choice.lower()
 
     if choice == "+":
         answer1 = x+number1+number2
