@@ -1,9 +1,8 @@
 print("Welcome to the Basic Calculator!")
-number1=(int(input("Please enter your First Number")))
-number2=(int(input("Please enter your Second Number")))
+number1=(float(input("Please enter your First Number")))
+number2=(float(input("Please enter your Second Number")))
 
 choice=input("Would you like to Add, Subtract, Multiply or Divide? (Use Symbols)")
-
 
 if choice == "+":
     answer1 = number1+number2
